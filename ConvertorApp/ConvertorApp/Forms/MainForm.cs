@@ -43,7 +43,8 @@ namespace ConvertorApp
                 string[] arrX = xTextbox.Text.Split(',');
                 string[] arrY = yTextbox.Text.Split(',');
 
-                if (arrX.Length == arrY.Length)
+
+                if (arrX.Length == arrY.Length && arrX.Length !=0)
                 {
                     string message = xTextbox.Text + "|" + yTextbox.Text;
 
@@ -58,7 +59,7 @@ namespace ConvertorApp
                 }
                 else
                 {
-                    MessageBox.Show("Both arrays of data must contain an equal number of elements!", "Error");
+                    MessageBox.Show("Incorrect data!", "Error");
                 }
 
             
@@ -99,6 +100,12 @@ namespace ConvertorApp
             xTextbox.Clear();
             yTextbox.Clear();
             serverTextbox.Clear();
+        }
+
+        private void OnKeyPress(object sender, KeyPressEventArgs e)
+        {
+             if (e.KeyChar != 44 && e.KeyChar != 8 && (e.KeyChar < 48 || e.KeyChar > 57) && e.KeyChar == 189)
+             e.Handled = true;
         }
     }
 }

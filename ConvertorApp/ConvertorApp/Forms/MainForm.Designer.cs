@@ -61,6 +61,7 @@
             this.xTextbox.Name = "xTextbox";
             this.xTextbox.Size = new System.Drawing.Size(327, 19);
             this.xTextbox.TabIndex = 1;
+            this.xTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnKeyPress);
             // 
             // sendButton
             // 
@@ -132,6 +133,7 @@
             this.yTextbox.Name = "yTextbox";
             this.yTextbox.Size = new System.Drawing.Size(327, 20);
             this.yTextbox.TabIndex = 8;
+            this.yTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnKeyPress);
             // 
             // button1
             // 
