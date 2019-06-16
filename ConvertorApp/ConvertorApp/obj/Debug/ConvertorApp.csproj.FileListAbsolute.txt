@@ -1,0 +1,14 @@
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\bin\Debug\ConvertorApp.exe.config
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\bin\Debug\ConvertorApp.exe
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\bin\Debug\ConvertorApp.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.csprojAssemblyReference.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.MainForm.resources
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.Properties.Resources.resources
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.csproj.GenerateResource.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.csproj.CoreCompileInputs.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.exe
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.AboutForm.resources
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\bin\Debug\ConvertDB.mdf
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\bin\Debug\ConvertDB_log.ldf
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\ConvertorApp\obj\Debug\ConvertorApp.Forms.ArchiveForm.resources

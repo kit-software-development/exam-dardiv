@@ -1,0 +1,8 @@
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\bin\Debug\netstandard2.0\SpearmanLib.deps.json
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\bin\Debug\netstandard2.0\SpearmanLib.dll
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\bin\Debug\netstandard2.0\SpearmanLib.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\obj\Debug\netstandard2.0\SpearmanLib.csproj.CoreCompileInputs.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\obj\Debug\netstandard2.0\SpearmanLib.AssemblyInfoInputs.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\obj\Debug\netstandard2.0\SpearmanLib.AssemblyInfo.cs
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\obj\Debug\netstandard2.0\SpearmanLib.dll
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\SpearmanCoeff\obj\Debug\netstandard2.0\SpearmanLib.pdb

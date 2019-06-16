@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ArchiveViewDataSet" targetNamespace="http://tempuri.org/ArchiveViewDataSet.xsd" xmlns:mstns="http://tempuri.org/ArchiveViewDataSet.xsd" xmlns="http://tempuri.org/ArchiveViewDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConvertDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConvertDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ConvertorApp.Properties.Settings.GlobalReference.Default.ConvertDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ArchiveViewTableAdapter" GeneratorDataComponentClassName="ArchiveViewTableAdapter" Name="ArchiveView" UserDataComponentName="ArchiveViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConvertDBConnectionString (Settings)" DbObjectName="dbo.ArchiveView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT X, Y, [Spearman's rho] FROM dbo.ArchiveView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="X" DataSetColumn="X" />
+              <Mapping SourceColumn="Y" DataSetColumn="Y" />
+              <Mapping SourceColumn="Spearman's rho" DataSetColumn="Spearman's rho" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ArchiveViewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ArchiveViewDataSet" msprop:Generator_UserDSName="ArchiveViewDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ArchiveView" msprop:Generator_TableClassName="ArchiveViewDataTable" msprop:Generator_TableVarName="tableArchiveView" msprop:Generator_TablePropName="ArchiveView" msprop:Generator_RowDeletingName="ArchiveViewRowDeleting" msprop:Generator_RowChangingName="ArchiveViewRowChanging" msprop:Generator_RowEvHandlerName="ArchiveViewRowChangeEventHandler" msprop:Generator_RowDeletedName="ArchiveViewRowDeleted" msprop:Generator_UserTableName="ArchiveView" msprop:Generator_RowChangedName="ArchiveViewRowChanged" msprop:Generator_RowEvArgName="ArchiveViewRowChangeEvent" msprop:Generator_RowClassName="ArchiveViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="X" msprop:Generator_ColumnVarNameInTable="columnX" msprop:Generator_ColumnPropNameInRow="X" msprop:Generator_ColumnPropNameInTable="XColumn" msprop:Generator_UserColumnName="X">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Y" msprop:Generator_ColumnVarNameInTable="columnY" msprop:Generator_ColumnPropNameInRow="Y" msprop:Generator_ColumnPropNameInTable="YColumn" msprop:Generator_UserColumnName="Y">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Spearman_x0027_s_x0020_rho" msprop:Generator_ColumnVarNameInTable="_columnSpearman_s_rho" msprop:Generator_ColumnPropNameInRow="_Spearman_s_rho" msprop:Generator_ColumnPropNameInTable="_Spearman_s_rhoColumn" msprop:Generator_UserColumnName="Spearman's rho">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

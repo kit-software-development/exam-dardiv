@@ -1,0 +1,14 @@
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\TCP.Server.deps.json
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\TCP.Server.runtimeconfig.json
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\TCP.Server.runtimeconfig.dev.json
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\TCP.Server.dll
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\TCP.Server.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.csprojAssemblyReference.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.csproj.CoreCompileInputs.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.AssemblyInfoInputs.cache
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.AssemblyInfo.cs
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.dll
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\SpearmanLib.dll
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\bin\Debug\netcoreapp2.1\SpearmanLib.pdb
+E:\6 семестр\C sharp\ExamProject\ConvertorApp\TCP.Server\obj\Debug\netcoreapp2.1\TCP.Server.csproj.CopyComplete
