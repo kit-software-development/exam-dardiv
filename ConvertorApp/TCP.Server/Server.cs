@@ -34,23 +34,27 @@ namespace TCPServer
                     byte[] bytes = new byte[1024];
                     int bytesRec = handler.Receive(bytes);
 
+                   
                     data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
 
-                    string[] Res = data.Split("|");
+                    if (data != "")
+                    {
+                        string[] Res = data.Split("|");
 
-                    Console.Write("Data from client: X:" + Res[0] + "; Y:" + Res[1] + "\n\n");
+                        Console.Write("Data from client: X:" + Res[0] + "; Y:" + Res[1] + "\n\n");
 
-                    int[] arrX = Array.ConvertAll(Res[0].Split(","), int.Parse);
-                    int[] arrY = Array.ConvertAll(Res[1].Split(","), int.Parse);
+                        int[] arrX = Array.ConvertAll(Res[0].Split(","), int.Parse);
+                        int[] arrY = Array.ConvertAll(Res[1].Split(","), int.Parse);
 
-                    double rho = arrX.SpearmansCoeff(arrY);
+                        double rho = arrX.SpearmansCoeff(arrY);
 
-                    string reply = rho.ToString();
+                        string reply = rho.ToString();
 
-                    Console.Write("Reply to client: " + reply + "\n\n");
+                        Console.Write("Reply to client: " + reply + "\n\n");
 
-                    byte[] msg = Encoding.UTF8.GetBytes(reply);
-                    handler.Send(msg);
+                        byte[] msg = Encoding.UTF8.GetBytes(reply);
+                        handler.Send(msg);
+                    }
 
                     handler.Shutdown(SocketShutdown.Both);
                     handler.Close();
